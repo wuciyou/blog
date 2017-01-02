@@ -1,6 +1,6 @@
 我们在编写爬虫软件或者抓取某一个单一网页的时候，一般都是使用正则表达式技术获取需要的内容。这种方式比较灵活，但是使用门槛较高。
   
-今天给大家分享的是golang官方开源的 net包，这个包是为了补充自带的net不足，作为扩展使用。下载地址 [https://github.com/golang/net](https://github.com/golang/net)
+今天给大家分享的是golang官方开源的 net/html包，这个包是为了补充自带的net不足，作为扩展使用。下载地址 [https://github.com/golang/net](https://github.com/golang/net)
 >不能直接使用git clone 的方式下载源代码，必须使用go get 命令获取
 
 ```
